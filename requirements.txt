@@ -23,7 +23,6 @@ distro
 distro-info
 Django
 djangorestframework
-gyp
 html5lib
 httplib2
 idna
