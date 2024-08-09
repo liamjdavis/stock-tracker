@@ -66,7 +66,6 @@ poetry
 poetry-core
 prompt_toolkit
 psycopg2-binary
-ptyprocess
 python-apt
 python-dateutil
 python-decouple
