@@ -60,7 +60,6 @@ pandas
 pastel
 pexpect
 pipdeptree
-pkginfo
 python-apt
 python-dateutil
 python-decouple
