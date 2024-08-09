@@ -64,7 +64,6 @@ pkginfo
 platformdirs
 poetry
 poetry-core
-prompt_toolkit
 python-apt
 python-dateutil
 python-decouple
