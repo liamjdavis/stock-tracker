@@ -24,7 +24,6 @@ distro-info
 Django
 djangorestframework
 environ
-ephem
 gyp
 html5lib
 httplib2
