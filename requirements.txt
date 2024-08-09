@@ -25,7 +25,6 @@ Django
 djangorestframework
 environ
 ephem
-filelock
 gyp
 html5lib
 httplib2
