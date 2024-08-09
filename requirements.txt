@@ -5,3 +5,4 @@ pandas
 celery
 djangorestframework
 schedule
+decouple
