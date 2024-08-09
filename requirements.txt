@@ -61,7 +61,6 @@ pastel
 pexpect
 pipdeptree
 pkginfo
-platformdirs
 python-apt
 python-dateutil
 python-decouple
