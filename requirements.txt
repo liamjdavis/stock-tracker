@@ -63,7 +63,6 @@ pipdeptree
 pkginfo
 platformdirs
 poetry
-poetry-core
 python-apt
 python-dateutil
 python-decouple
