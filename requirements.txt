@@ -57,7 +57,6 @@ nvidia-nvtx-cu12
 oauthlib
 packaging
 pandas
-pastel
 python-apt
 python-dateutil
 python-decouple
