@@ -68,7 +68,6 @@ prompt_toolkit
 psycopg2-binary
 ptyprocess
 Pygments
-PyJWT
 python-apt
 python-dateutil
 python-decouple
