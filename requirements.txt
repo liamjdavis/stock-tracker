@@ -70,7 +70,6 @@ ptyprocess
 Pygments
 PyJWT
 pylev
-pyparsing
 python-apt
 python-dateutil
 python-decouple
