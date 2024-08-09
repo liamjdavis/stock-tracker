@@ -68,7 +68,6 @@ prompt_toolkit
 psycopg2-binary
 ptyprocess
 Pygments
-PyGObject
 PyJWT
 pylev
 pyparsing
