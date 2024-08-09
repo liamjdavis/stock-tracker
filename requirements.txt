@@ -59,7 +59,6 @@ packaging
 pandas
 pastel
 pexpect
-pipdeptree
 python-apt
 python-dateutil
 python-decouple
