@@ -62,7 +62,6 @@ pexpect
 pipdeptree
 pkginfo
 platformdirs
-poetry
 python-apt
 python-dateutil
 python-decouple
