@@ -69,7 +69,6 @@ psycopg2-binary
 ptyprocess
 Pygments
 PyJWT
-pylev
 python-apt
 python-dateutil
 python-decouple
