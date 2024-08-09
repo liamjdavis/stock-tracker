@@ -27,11 +27,9 @@ environ
 ephem
 filelock
 fsspec
-gunicorn
 gyp
 html5lib
 httplib2
-huggingface-hub
 idna
 importlib-metadata
 jeepney
