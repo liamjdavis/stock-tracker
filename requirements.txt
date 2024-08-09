@@ -58,7 +58,6 @@ oauthlib
 packaging
 pandas
 pastel
-pexpect
 python-apt
 python-dateutil
 python-decouple
