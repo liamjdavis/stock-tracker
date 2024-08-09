@@ -16,8 +16,6 @@ click-didyoumean
 click-plugins
 click-repl
 clikit
-colorama
-command-not-found
 crashtest
 cryptography
 dbus-python
