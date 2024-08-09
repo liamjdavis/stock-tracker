@@ -67,7 +67,6 @@ poetry-core
 prompt_toolkit
 psycopg2-binary
 ptyprocess
-Pygments
 python-apt
 python-dateutil
 python-decouple
