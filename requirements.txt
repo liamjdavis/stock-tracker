@@ -18,7 +18,6 @@ click-repl
 clikit
 crashtest
 cryptography
-dbus-python
 distlib
 distro
 distro-info
