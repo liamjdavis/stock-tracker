@@ -23,7 +23,6 @@ distro
 distro-info
 Django
 djangorestframework
-environ
 gyp
 html5lib
 httplib2
