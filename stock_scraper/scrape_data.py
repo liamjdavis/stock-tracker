@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from decimal import Decimal, InvalidOperation
 from .config import TICKERS, CSV_FILENAME
-from .models import Stock, Subscriber
 
 def get_stock_data(ticker):
     from .models import Stock  # Move import here
