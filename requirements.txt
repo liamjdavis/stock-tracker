@@ -8,3 +8,5 @@ schedule
 python-decouple
 gunicorn
 redis
+psycopg2-binary
+dj-database-url
