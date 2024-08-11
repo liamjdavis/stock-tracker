@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from decimal import Decimal, InvalidOperation
 from .config import TICKERS, CSV_FILENAME
+from .models import Stock, Subscriber
 
 def get_stock_data(ticker):
     from .models import Stock  # Move import here
@@ -88,7 +89,9 @@ def get_stock_data(ticker):
     # stock.market_cap = data.get('market_cap', None)
     # stock.pe_ratio = data.get('pe_ratio', None)
     # stock.change = data.get('change', None)
+    print("Saving stock...")
     stock.save()
+    print("Stock saved.")
 
     return data
 
