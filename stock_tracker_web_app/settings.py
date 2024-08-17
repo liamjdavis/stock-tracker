@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'stock_tracker_web_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'db_postgres',
-        'USER': 'liam',
-        'PASSWORD': 'Ih8thepirates',
-        'HOST': 'postgres://ueptqr4u766171:p9d4d91c768a6587c3aeeba428f571f75911d5100c4b9bb55549cce3dfb95a406@cbec45869p4jbu.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/dkjo21fppe5mb',
+        'NAME': 'dkjo21fppe5mb',
+        'USER': 'ueptqr4u766171',
+        'PASSWORD': 'p9d4d91c768a6587c3aeeba428f571f75911d5100c4b9bb55549cce3dfb95a406',
+        'HOST': 'cbec45869p4jbu.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
@@ -126,8 +126,8 @@ REST_FRAMEWORK = {
 }
 
 # Celery Config
-CELERY_BROKER_URL = os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
-CELERY_RESULT_BACKEND = os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
+CELERY_BROKER_URL = os.environ.get('REDIS_URL')
+CELERY_RESULT_BACKEND = os.environ.get('REDIS_URL')
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
