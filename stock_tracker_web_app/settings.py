@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-m$0wzkgai7_=5$w%=1-cp!tn3v(h*d(db^f9i(u)-#@g@m&re!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['i2i-stock-scraper-3f03113a80a2.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['arcane-beach-09759-44c2d5f96ea4.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
