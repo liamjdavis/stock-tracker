@@ -1,5 +1,5 @@
 from celery import shared_task
-from .models import Stock, Subscriber
+from .models import Stock
 from .scrape_data import get_stock_data
 from .config import TICKERS
 

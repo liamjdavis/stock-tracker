@@ -80,22 +80,6 @@
 <body>
     <h1>Stock Price Tracker (Updated Every 30 Minutes)</h1>
 
-    {% if messages %}
-        <ul>
-            {% for message in messages %}
-                <li>{{ message }}</li>
-            {% endfor %}
-        </ul>
-    {% endif %}
-
-    <div class="form-container">
-        <form method="post" action="{% url 'subscribe' %}">
-            {% csrf_token %}
-            <input type="email" name="email" placeholder="Enter your email" class="input-field" required>
-            <button type="submit" class="button">Subscribe</button>
-        </form>
-    </div>
-
     <table>
         <thead>
             <tr>
