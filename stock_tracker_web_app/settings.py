@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-m$0wzkgai7_=5$w%=1-cp!tn3v(h*d(db^f9i(u)-#@g@m&re!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['i2i-stock-scraper-c439a63cc8d2.herokuapp.com']
+ALLOWED_HOSTS = ['.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -81,6 +81,7 @@ WSGI_APPLICATION = 'stock_tracker_web_app.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+import dj_database_url
 
 DATABASES = {
     'default': {
@@ -88,7 +89,7 @@ DATABASES = {
         'NAME': 'db_postgres',
         'USER': 'liam',
         'PASSWORD': 'Ih8thepirates',
-        'HOST': 'localhost',
+        'HOST': 'postgres://ueptqr4u766171:p9d4d91c768a6587c3aeeba428f571f75911d5100c4b9bb55549cce3dfb95a406@cbec45869p4jbu.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/dkjo21fppe5mb',
         'PORT': '5432',
     }
 }
