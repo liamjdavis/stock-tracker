@@ -84,10 +84,7 @@ def get_stock_data(ticker):
     stock.high_price = data['high_price']
     stock.low_price = data['low_price']
     stock.volume = data['volume']
-    # Assuming `market_cap`, `pe_ratio`, and `change` are not included in this request
-    # stock.market_cap = data.get('market_cap', None)
-    # stock.pe_ratio = data.get('pe_ratio', None)
-    # stock.change = data.get('change', None)
+    
     print("Saving stock...")
     stock.save()
     print("Stock saved.")
@@ -97,7 +94,7 @@ def get_stock_data(ticker):
 
     return data
 
-def save_data_to_csv(stock_data, filename=CSV_FILENAME):
+def save_data_to_csv(stock_data, filename):
     df = pd.DataFrame(stock_data)
     df.to_csv(filename, index=False)
 
