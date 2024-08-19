@@ -90,7 +90,7 @@ def get_stock_data(ticker):
     print("Stock saved.")
     
     # Save data to CSV
-    save_data_to_csv([data], 'logs/stock_data.csv')
+    save_data_to_csv([data], 'stock_data.csv')
 
     return data
 
